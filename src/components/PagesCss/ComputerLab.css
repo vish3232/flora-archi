@@ -1,0 +1,80 @@
+.computer-main-container{
+    margin-top: 2%;
+}
+.computer-sub-nav{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row; 
+    height: 96px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+opacity: 1;
+align-items: center;
+justify-content: space-between;
+ }
+ .computer-sub-nav-item{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #747474;
+    opacity: 1;
+ }
+.computer-container{
+    margin-left: 5%;
+   margin-right: 5%;
+  margin-top: 5%;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+    padding: 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #616161;
+border-radius: 5px;
+opacity: 1;
+}
+.computer-container-header{
+    align-self: center;
+    font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 0px;
+color: #F1B787;
+opacity: 1;
+position: absolute;
+top:-25px;
+background: white;
+width: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.computer-container-border{
+    margin-top: 10px;
+height: 4px;
+width: 100px;
+background-color: gray;
+
+}
+.computer-container-paragraph{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 30px;
+letter-spacing: 0px;
+}
+
+.computer-ICT-card-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    grid-auto-rows: minmax(300px,auto);
+    grid-gap: 20px;
+  }
+.computer-ICT-card{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+}
